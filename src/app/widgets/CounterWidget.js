@@ -15,6 +15,8 @@ function CounterWidget({ widgetData }) {
   }
 
     return (
+      <>
+        <h5>{id}</h5>
         <div className="flex items-center">
             <button
             className="bg-gray-200 text-gray-700 font-bold py-2 px-2 rounded-l-md hover:bg-gray-300"
@@ -34,6 +36,7 @@ function CounterWidget({ widgetData }) {
             +
             </button>
         </div>
+      </>
     );
 }
 
